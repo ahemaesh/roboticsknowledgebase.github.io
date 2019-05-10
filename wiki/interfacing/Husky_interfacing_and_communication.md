@@ -9,9 +9,9 @@
 
    To integrate the Jetson with the Husky, first, the Jetson has to be powered using a 12 volt supply that can be drawn from the Husky's battery-powered electric outputs that are located in the open compartment of the Husky. Also, two Wi-Fi antennas need to be electrically connected to the Jetson. These help in easily accessing the Jetson's folders via Secure Shell(SSH), more on this later. Once the Jetson is powered, it has to be flashed with Linux OS. The detailed steps for flashing the Jetson can be obtained via these YouTube videos:
 
-[*Video 1*](https://www.youtube.com/watch?v=9uMvXqhjxaQ)
+[*Flashing NVIDIA Jetson TX2*](https://www.youtube.com/watch?v=9uMvXqhjxaQ)
 
-[*Video 2*](https://www.youtube.com/watch?v=D7lkth34rgM)
+[*JetPack 3.0 - NVIDIA Jetson TX2*](https://www.youtube.com/watch?v=D7lkth34rgM)
 
    Now the Jetson should be connected to a common WiFi network as the user's laptop. The Jetson's IP address can be obtained by typing "ifconfig" command in the Terminal window\. Then an SSH communication can be set up between the user's laptop and the Jetson using the command: *ssh  "your_jetson_devise_name"@ipaddress*  Ex: ssh husky\_nvidia@192\.168\.0\.102
 Once a secure shell connection is established between the user’s laptop and the Jetson, Husky control commands can be sent via this connection.
