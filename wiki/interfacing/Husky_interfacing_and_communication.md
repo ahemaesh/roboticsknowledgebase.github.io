@@ -9,8 +9,10 @@
 
    To integrate the Jetson with the Husky, first, the Jetson has to be powered using a 12 volt supply that can be drawn from the Husky's battery-powered electric outputs that are located in the open compartment of the Husky. Also, two Wi-Fi antennas need to be electrically connected to the Jetson. These help in easily accessing the Jetson's folders via Secure Shell(SSH), more on this later. Once the Jetson is powered, it has to be flashed with Linux OS. The detailed steps for flashing the Jetson can be obtained via these YouTube videos:
 
+![*Video 1*](assets/images/Hk47portrait-298x300.jpg)
 {% include video id="9uMvXqhjxaQ" provider="youtube" %}
 
+![*Video 2*](assets/images/Hk47portrait-298x300.jpg)
 {% include video id="D7lkth34rgM" provider="youtube" %}
 
    Now the Jetson should be connected to a common WiFi network as the user's laptop. The Jetson's IP address can be obtained by typing "ifconfig" command in the Terminal window\. Then an SSH communication can be set up between the user's laptop and the Jetson using the command: *ssh  "your_jetson_devise_name"@ipaddress*  Ex: ssh husky\_nvidia@192\.168\.0\.102
@@ -36,4 +38,4 @@ A detailed description of the navigation package can be found in the following l
 <http://www.clearpathrobotics.com/assets/guides/husky/HuskyGPSWaypointNav.html>
 
 ## Summary
- Using the above description, the Clearpath Husky can be set up easily and quickly. 
+Using the above description, the Clearpath Husky can be set up easily and quickly. 
